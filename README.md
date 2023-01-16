@@ -1,5 +1,5 @@
-# DDescent-in-NN
-This repository includes a Jupyter notebook and files to reproduce epoch-wise and model size double descent in the literature, with and 
+# Double Descent in NN
+This repository includes a Jupyter notebook and files to reproduce some results for epoch-wise and model size double descent in the literature, with and 
 without regularization. For more details about double descent, see the note file.
 
 ## References
