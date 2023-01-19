@@ -1,3 +1,5 @@
+# A note about the project
+
 Recently, I became familiar with an OpenAI's paper named "Deed double descent: where bigger models and more data hurt". 
 The paper discusses the double descent phenomenon and its robustness across various architectures.
 But, what exactly is double descent? Essentially, as the model size grows while being trained on a fixed dataset size,
@@ -22,3 +24,10 @@ I also experimented with regularization and observed that by increasing the regu
 the double descent can be completely avoided. Currently, I am investigating the effect of learning rate on the double descent.
 I believe that having a concrete theoretical explanation for this phenomenon and how it is generally connected to feature selections in deep learning models
 is an important and exciting open question. 
+
+## References
+
+**Deed double descent: where bigger models and more data hurt**, Preetum Nakkiran, Gal Kaplun, Yamini Bansal, Tristan Yang, Boaz Barak, Ilya Sutskever,
+arXiv: 1912.02292
+
+**LassoNet: A Neural Network with Feature Sparsity**, Ismael Lemhadri, Feng Ruan, Louis Abraham, Robert Tibshirani, arXiv: 1907.12207
