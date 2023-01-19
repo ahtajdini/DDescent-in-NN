@@ -1,7 +1,7 @@
 # A note about the project
 
 Recently, I became familiar with an OpenAI's paper named "Deed double descent: where bigger models and more data hurt". 
-The paper discusses the double descent phenomenon and its robustness across various architectures.
+The paper discusses the double descent phenomenon and its robustness across various architectures based on previous work by Belkin, et al.
 But, what exactly is double descent? Essentially, as the model size grows while being trained on a fixed dataset size,
 the model error initially decreases until the model overfits the data causing the error to increase.
 However, after a certain point, the error decreases again, hence the name "double descent".
@@ -26,6 +26,9 @@ I believe that having a concrete theoretical explanation for this phenomenon and
 is an important and exciting open question. 
 
 ## References
+
+**Reconciling modern machine-learning practice and the classical bias–variance trade-off**, 
+Mikhail Belkin, Daniel Hsu, Siyuan Ma, and Soumik Mandal, July 24, 2019 , PNAS 116 (32) 15849-15854
 
 **Deed double descent: where bigger models and more data hurt**, Preetum Nakkiran, Gal Kaplun, Yamini Bansal, Tristan Yang, Boaz Barak, Ilya Sutskever,
 arXiv: 1912.02292
